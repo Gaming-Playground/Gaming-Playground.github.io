@@ -1,0 +1,14 @@
+body {
+  background-color: #e6ceac;
+  color: #292418;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  color: #292418;
+  outline: none;
+}
