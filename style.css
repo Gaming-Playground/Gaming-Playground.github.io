@@ -16,4 +16,5 @@ button {
   font-family: monospace;
   font-size: 25px;
   background-color: #bda583;
+  border: 1px solid #524839;
 }
