@@ -12,4 +12,7 @@ button {
   color: #292418;
   outline: none;
   width: 30%;
+  height: 30px;
+  font-family: monospace;
+  font-size: 25px;
 }
