@@ -4,11 +4,12 @@ body {
   font-family: monospace;
 }
 
-h1 {
+h1, #navigation {
   text-align: center;
 }
 
 button {
   color: #292418;
   outline: none;
+  width: 30%;
 }
