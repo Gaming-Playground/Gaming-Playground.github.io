@@ -3,8 +3,9 @@ var i = 0;
 
 function title() {
   var currentTxt = document.getElementById("title").innerHTML;
-  currentTxt += titleTxt.charAt(i);
   if (i < titleTxt.length) {
+    i++;
+    currentTxt += titleTxt.charAt(i);
     window.setTimeout(title, 250);
   }
 }
