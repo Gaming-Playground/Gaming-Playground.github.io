@@ -1,8 +1,8 @@
 var titleTxt = "Gaming Playground";
 var i = 0;
+var currentTxt = document.getElementById("title").innerHTML;
 
 function title() {
-  var currentTxt = document.getElementById("title").innerHTML;
   if (i < titleTxt.length) {
     i++;
     currentTxt += titleTxt.charAt(i);
